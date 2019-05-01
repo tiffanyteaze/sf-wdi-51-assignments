@@ -97,6 +97,9 @@ nav li a:hover {
 /*Header*/
 #about {
   background: #66CCCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #profile-pic {
   max-width: 100%;
@@ -140,6 +143,10 @@ margin: 50px 0;
 }
 
 /*Testimonials*/
+.testimonial-wrapper {
+  height: 275px;
+}
+
 .cbp-qtrotator {
 width: 800px;
 height: 180px;
@@ -220,9 +227,16 @@ blockquote {
 }
 
 /*Carousel*/
+.carousel-inner img {
+  margin: auto;
+}
 .carousel-slide-container {
   width: 800px;
   margin: 0 auto;
+}
+
+div.item.active {
+  border-bottom: none;
 }
 
 .arrow-color {
@@ -232,6 +246,16 @@ blockquote {
 /*Contact Form*/
 #contact {
   background: #F9DFB0;
+}
+
+#contact > div > p {
+  color: #FF9966;
+  font-size: 14px;
+}
+
+#contact > div > p > a {
+  color: #66CCCC;
+  font-size: 14px;
 }
 
 .contact-wrapper {

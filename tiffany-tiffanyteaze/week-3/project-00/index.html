@@ -47,39 +47,42 @@
   <img id="profile-pic" src="./images/69520028.jpg" alt="Picture of Tiffany Teaze">
   </header>
   <section id="about">
-    <div class="container">
-      <h2 class="text-center">Hi, I'm Tiffany.</h2>
-      <p class="text-center">I’m a red-headed front-end developer, but I’ve got a great back-end too ;) My friends say that I’m peculiar, funny, and a very stylish eater. I do love fast food, so they’re right.</p>
+    <div class="container-fluid text-center">
+      <h2>Hi, I'm Tiffany.</h2>
+      <p>My passion for web development started when I was a teenager building fan sites for my favorite bands, and I continued my curiosity for coding in college and my adult life. The past eight years I’ve spent helping customers troubleshoot their technical products have helped me develop the problem solving skills required for building applications.
+      </p>
     </div>
   </section>
   <section id="skills">
     <div class="container">
       <h3>Front-End Development</h3>
-      <p>Here’s more relevant information about my work. Perhaps there is a
-very descriptive paragraph highlighting all my good qualities and
-important business words that make me look very good.</p>
+      <p>I attended the Web Development Immersive course at General Assembly in San Francisco for twelve weeks to meet user needs, model data, develop wireframes, and work collaboratively through version control. I built applications from the ground up to create dynamic front-ends with Javascript, Jinja2 and React as well as back-end environments with Node, Express, Flask, Postgres and Mongoose, and incorporated third party APIs with Axios and AJAX calls.</p>
     </div>
   </section>
   <section id="testimonials" >
-    <div class="container">
+    <div class="container testimonial-wrapper">
       <h2>Testimonials</h2>
       <!-- Quotes -->
       <div class="quotes">
+          <blockquote>
+            <p>“As a graphic designer, I really enjoyed working with Tiffany! She is passionate and dedicated to her field, with a strong ability to effectively communicate her requirements and limitations."</p>
+            <p class="quote-giver">- Jacque Lamkin</p>
+          </blockquote>
         <blockquote>
-          <p>“A well deserved accolade for a gifted little lady."</p>
-          <p class="quote-giver">- Bill Gates</p>
+          <p>“Tiffany Teaze is the sharpest knife in the drawer, if learning was a skill, she would have it, and love it!"</p>
+          <p class="quote-giver">- Eric Gladstone</p>
         </blockquote>
         <blockquote>
-          <p>"Better than Grimes."</p>
-          <p class="quote-giver">- Elon Musk</p>
+          <p>"Tiffany is an intelligent, aesthetic, and unique individual whom is always a joy to have around!"</p>
+          <p class="quote-giver">- Aja Banks</p>
         </blockquote>
         <blockquote>
-          <p>"I met Tiffany Teaze at a party once, and she was even more charming than me."</p>
-          <p class="quote-giver">- Paul Rudd</p>
+          <p>"Her tenacity will take her very far in life."</p>
+          <p class="quote-giver">- Evan Jones</p>
         </blockquote>
         <blockquote>
-          <p>"A visionary."</p>
-          <p class="quote-giver">- Lady Gaga</p>
+          <p>"Tiffany is a capable and dedicated developer with a creative mind. She knows her strengths, works hard to fill any knowledge gaps before moving forward, and stays calm under pressure. It was a joy to collaborate with her."</p>
+          <p class="quote-giver">- Garrett York</p>
         </blockquote>
       </div>
     </div>
@@ -89,7 +92,7 @@ important business words that make me look very good.</p>
       <h3>Portfolio</h3>
       <!-- Carousel -->
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-sm-12">
             <div id="my-slider" class="carousel slide container" data-ride="carousel" data-interval="false">
               <!-- dot nav -->
@@ -101,18 +104,18 @@ important business words that make me look very good.</p>
               <!-- slide wrapper -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <a href="./images/monument.jpg" data-toggle="lightbox">
-                    <img src="./images/monument.jpg" alt="Monument">
+                  <a href="./images/portfolio_dermatic.jpg" data-toggle="lightbox">
+                    <img src="./images/portfolio_dermatic.jpg" alt="Monument">
                   </a>
                 </div>
                 <div class="item">
-                  <a href="./images/javascriptracer.jpg" data-toggle="lightbox">
-                    <img src="./images/javascriptracer.jpg" alt="Racer">
+                  <a href="./images/portfolio_cinemite.jpg" data-toggle="lightbox">
+                    <img src="./images/portfolio_cinemite.jpg" alt="Racer">
                   </a>
                 </div>
                 <div class="item">
-                  <a href="./images/javascriptracer.jpg" data-toggle="lightbox">
-                    <img src="./images/supermarket.jpg" alt="Racer">
+                  <a href="./images/portfolio_kibblr.jpg" data-toggle="lightbox">
+                    <img src="./images/portfolio_kibblr.jpg" alt="Racer">
                   </a>
                 </div>
               </div>
@@ -134,6 +137,7 @@ important business words that make me look very good.</p>
   <section id="contact">
     <div class="container justify-content-center contact-wrapper">
       <h3>Contact Me</h3>
+      <p>You can email me personally at <a class="mail" href="mailto:tteaze@badmail.com">&#116;&#116;&#101;&#097;&#122;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a> or use the following contact form:</p>
       <form id="contact-form" method="post" action="contact.php" role="form">
         <div class="row justify-content-between">
           <div class="col-sm-3">
@@ -170,12 +174,12 @@ important business words that make me look very good.</p>
       <p class="copyright">&copy; 2019</p>
       <ul class="message">
         <li>
-          <a href="#">
+          <a href="https://github.com/tiffanyteaze">
             <img src="./images/socials/socials-08.png" alt="GitHub">
           </a>
         </li>
-        <li><a href="#"><img src="./images/socials/socials-09.png" alt="LinkedIn"></a></li>
-        <li><a href="#"><img src="./images/socials/socials-10.png" alt="Instagram"></a></li>
+        <li><a href="https://www.linkedin.com/in/tiffanyteaze/"><img src="./images/socials/socials-09.png" alt="LinkedIn"></a></li>
+        <li><a href="https://www.instagram.com/sniffanysneeze/"><img src="./images/socials/socials-10.png" alt="Instagram"></a></li>
       </ul>
     </footer>
   <script src="./js/main.js"></script>

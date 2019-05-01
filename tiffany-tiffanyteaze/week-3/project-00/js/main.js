@@ -25,3 +25,9 @@ $(window).scroll(function() {
 })
 
 });
+
+//keeps bots from spamming email
+$('a.mail').on('click', function(){
+  var href = $(this).attr('href');
+  $(this).attr('href', href.replace('badmail.', 'gmail.'));
+});
