@@ -24,10 +24,17 @@ $(window).scroll(function() {
   })
 })
 
+//keeps bots from spamming email
+$('#contact').hover(function() {
+  var href = $('a.mail').attr('href');
+  $('a.mail').attr('href', href.replace('badmail.', 'gmail.'));
 });
 
-//keeps bots from spamming email
 $('a.mail').on('click', function(){
   var href = $(this).attr('href');
   $(this).attr('href', href.replace('badmail.', 'gmail.'));
 });
+
+});
+
+

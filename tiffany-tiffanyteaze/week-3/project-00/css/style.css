@@ -243,6 +243,14 @@ div.item.active {
   color: #FF9966;
 }
 
+.carousel-control-next .carousel-control-next-icon {
+  right: 0;  
+}
+
+.carousel-control-prev .carousel-control-prev-icon {
+  left: 0;
+}
+
 /*Contact Form*/
 #contact {
   background: #F9DFB0;
